@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/eraser');
+
+* {
+    max-width: 100% ;
+    height: auto;
+    
+}
+
+body{
+    background-image: url(/style/fundo-da-tabela-em-branco_24076-517.avif);
+    background-color: black;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;     
+    padding: 0;
+}
+
+div.central {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Eraser';
+    font-size: 2rem;
+    display: block;
+}
+
+div.central img {
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+h1 {
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(208, 255, 137);
+    font-family: 'Eraser';
+    font-size: 3rem;
+}
+
+label{
+    color: rgb(171, 237, 255);
+}
+
+input.texto{
+    background-color: gray;
+    width: 30px;
+    text-align: center;
+    font-family: 'Eraser';
+    font-size: 1.5rem;
+    color: white;
+}
+
+input.botao {
+    background-color: gray;
+    border: solid 2px rgb(88, 88, 88);
+    margin-left: 5px;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+p{
+    color: white;
+  
+}
+
+p#guesses {
+    color: rgb(255, 208, 120);
+}
+
+p#word {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+
