@@ -25,6 +25,10 @@ document.getElementById("word").textContent = displayWord;
 
 // Função para atualizar a tela com as letras adivinhadas corretamente
 
+setTimeout(function() {
+  location.reload();
+}, 2000);
+
 function updateWord() {
   var numCorrect = 0;
   for (var i = 0; i < word.length; i++) {
