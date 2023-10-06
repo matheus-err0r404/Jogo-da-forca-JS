@@ -37,7 +37,7 @@ if (numCorrect === word.length) {
     gameWon = true;
     var playAgain = confirm("É teetraa! Você ganhou!Deseja jogar novamente?");
     if (playAgain){
-      location.reload(2000);
+      location.reload();
     } else {
     var thankYou = alert("Obrigado Por Jogar!");
     }
