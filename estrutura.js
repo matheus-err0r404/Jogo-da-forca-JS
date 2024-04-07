@@ -1,6 +1,6 @@
 // Lista de palavras para o jogo
 var word = String
-var words = ["programacao", "site", "javascript", "codigo", "python", "github", "algoritmo", "funcao", "software", "variavel", "linguagem", "biblioteca", "objeto", "depuracao", "internet", "nuvem", "smartphone", "robotica", "aplicativos", "ciberataque", "automacao", "ptocessador"];
+var words = ["programacao", "site", "javascript", "codigo", "python", "github", "algoritmo", "funcao", "software", "variavel", "linguagem", "biblioteca", "objeto", "depuracao", "internet", "nuvem", "smartphone", "robotica", "aplicativos", "ciberataque", "automacao", "processador"];
 
 // Escolha aleatória de uma palavra
 var word = words[Math.floor(Math.random() * words.length)].toLowerCase();
